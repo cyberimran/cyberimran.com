@@ -1,0 +1,193 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+header{
+    padding: 2vw;
+    color: #7915D1;
+    text-align: center;
+    margin-top: 3px;
+}
+
+.desc{
+    display: block;
+    margin: 5px;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.btn{
+    padding: 10px;
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+.btn1{
+    color: white;
+    background-color: rgb(128, 124, 124);
+    padding: 10px;
+    text-decoration: none;
+    border: 2px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.btn2{
+    color: black;
+    background-color: #C9C9C9;
+    text-decoration: none;
+    padding: 10px;
+    border: 2px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+h3{
+    text-align: center;
+    margin-top: 25px;
+    color: #7915D1;
+}
+
+/* ---------------- Cards ------------------------ */
+
+.card-container{
+    width: 100%;
+    min-height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 90px;
+}
+
+.content-selection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content-selection .card{
+    font: 1;
+    margin: 20px 20px;
+    box-shadow: 0px 2px 8px 0px rgba(0,0,0,0,0.2);
+
+}
+
+.content-selection .card .img{
+    width: 100%;
+    height: auto;
+}
+
+.content-selection .card h2{
+    margin: 15px 0px;
+    font-size: 28px;
+    font-family: sans-serif;
+}
+
+@media screen and (max-width: 786px){
+    .content-selection{
+        flex-direction: column;
+    }
+}
+
+/* -------------------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+.footer-start{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+
+
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #7915D1;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #7915D1;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #7915D1;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+.card a{
+    text-decoration: none;
+    color: #7915D1;
+    color: #24262b;
+}
