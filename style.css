@@ -16,9 +16,12 @@ header{
     margin: 5px;
     text-align: center;
     margin-top: 20px;
-
+    color: black;
 }
 
+.lst{
+    margin-left: 20px;
+}
 .btn{
     padding: 10px;
     text-align: center;
